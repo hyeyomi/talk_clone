@@ -1,0 +1,82 @@
+#friends-display-link {
+  display: block;
+  margin-top: -25px;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 12px 0px;
+}
+
+#friends-display-link i {
+  color: #2e363e89;
+}
+
+#friends-display-link i:nth-child(2) {
+  font-size: 10px;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.freinds-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  border-top: var(--border);
+}
+
+.user-component__name--not-bold {
+  font-weight: 400;
+}
+
+.user-component__avatar--sm {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35%;
+  margin-right: 10px;
+  background-color: #19a7ce;
+}
+
+.user-component__column:nth-child(2) {
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__column:nth-child(2) i {
+  margin-left: 4px;
+}
+
+
+@keyframes hideSplashScreen {
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen{
+  position: absolute;
+  color: white;
+  background-color: #176B87;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  /*forwards로 애니메이션 마지막 속성값이 애니메이션 끝나도 유지됨*/
+  animation-delay: 0.5s; /*애니메이션이 0.5초간 멈췄다가 실행됨*/
+}
+

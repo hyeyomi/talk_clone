@@ -1,0 +1,69 @@
+.screen-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    padding-top: 52px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-right: 2px;
+    background-color: #176B87;
+    color: white;
+}
+
+.screen-header__title{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.screen-header__icons{
+   position: relative;
+}
+
+@keyframes rotateGear {
+  from{
+    transform: none;
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover{
+animation: rotateGear 2s linear infinite;
+}
+
+.screen-header__icons span{
+    margin-left: 23px;
+}
+
+.screen-header__notification{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    position: absolute;
+    top: -6px;
+    right: -5px;
+  }
+
+  .chat__plus {
+    position: relative;
+  }
+  
+  .chat__notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 1px;
+    bottom: 5px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    color:#176B87;
+    font-weight: 800;
+    padding-bottom: 2px;
+  }

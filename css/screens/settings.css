@@ -1,0 +1,54 @@
+.setting-screen{
+    padding: 20px;
+    margin-top: -15px;
+}
+
+.settings-list{
+    margin-bottom: 10px;
+}
+
+.settings-list2{
+    padding-top: 10px;
+    border-top: var(--border);
+}
+
+.settings__setting{
+    border-bottom: 1px rgba(0, 0, 0, 0.05) solid;
+    padding : 20px 0px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings__setting:last-child{
+    border-bottom: 0;
+}
+
+.settings__setting i{
+    color: #04364A;
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.settings__setting:last-child .settings__setting-column:last-child{
+    opacity: 0.8;
+}
+
+.settings__notification{
+    font-size: 12px;
+    font-weight: 600;
+    background-color: tomato;
+    color: white;
+    display: flex;
+    width: 18px;
+    height: 18px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    border-radius: 9px;
+}
+
+.settings__setting-column{
+    display: flex;
+}

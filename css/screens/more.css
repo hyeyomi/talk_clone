@@ -1,0 +1,60 @@
+.more-icons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border-bottom: var(--border);
+}
+
+.more-icons__icon{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.more-icons__icon span, .suggestion-icons__icon span{
+    margin-top: 15px;
+}
+
+.suggestion h6{
+    padding-left: 15px;
+    margin:15px 0px;
+}
+
+.suggestion-icons{
+    display: flex;
+    padding-top: 20px;
+    
+}
+
+.suggestion-icons__icon{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestion-icons__image{
+    background-color: #176b87ef;
+    color: white;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.user-component__subtitle i{
+    color: tomato;
+    margin-left: 3px;
+}
+
+.user-component__column:last-child i{
+    color: black;
+    margin-right: 5px;
+}
