@@ -2,12 +2,13 @@
     display: flex;
     justify-content: space-between;
     padding: 0px 15px;
-    padding-top: 52px;
+    padding-top: 60px;
     padding-bottom: 40px;
     margin-bottom: 20px;
     align-items: center;
     margin-right: 2px;
-    background-color: #176B87;
+    /* background-color: #176B87; */
+    background-color: #A7D397;
     color: white;
 }
 
@@ -63,7 +64,8 @@ animation: rotateGear 2s linear infinite;
     background-color: white;
     border-radius: 50%;
     text-align: center;
-    color:#176B87;
+    /* color:#176B87; */
+    color: #A7D397;
     font-weight: 800;
     padding-bottom: 2px;
   }

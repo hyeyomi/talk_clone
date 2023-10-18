@@ -18,7 +18,8 @@
   align-items: center;
   border-radius: 35%;
   margin-right: 10px;
-  background-color: #19a7ce;
+  /* background-color: #19a7ce; */
+  background-color: #F5EEC8;
 }
 .user-component__avatar i {
   font-size: 22px;

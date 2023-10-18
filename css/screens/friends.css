@@ -41,7 +41,8 @@
   align-items: center;
   border-radius: 35%;
   margin-right: 10px;
-  background-color: #19a7ce;
+  /* background-color: #19a7ce; */
+  background-color: #F5EEC8;
 }
 
 .user-component__column:nth-child(2) {
@@ -67,7 +68,8 @@
 #splash-screen{
   position: absolute;
   color: white;
-  background-color: #176B87;
+  /* background-color: #176B87; */
+  background-color: #A7D397;
   width: 100vw;
   height: 100vh;
   top: 0;

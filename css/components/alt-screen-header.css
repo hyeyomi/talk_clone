@@ -1,11 +1,14 @@
 .alt-header {
   padding: 0px 28px;
-  padding-top: 52px;
-  padding-bottom: 25px;
+  padding-top: 60px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.2);
+  /* background-color: #A7D397; */
+  background-color: #555843d6;
+  color: white;
 }
 
 .alt-header__column {

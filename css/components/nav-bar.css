@@ -4,7 +4,7 @@
   /*스크롤 해도 항상 아래쪽에 고정될 수 있도록 꾸며주기 */
   box-sizing: border-box; /*정해진 widtn에 맞춰서 패딩, 마진등을 지정함/ 따라서 widtn 이상으로 나가지 않음*/
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #D0D4CA;
   padding: 20px 0px;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
@@ -16,6 +16,7 @@
 
 .nav__link {
   color: #2e363e;
+
   position: relative;
 }
 
