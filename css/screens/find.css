@@ -18,7 +18,9 @@
 
 .find-icons__icon span {
   margin-top: 15px;
+  font-size: 15px;
 }
+
 
 .recommended-friends {
   padding: 15px 15px;
@@ -35,7 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 0px;
+  padding: 38px 0px;
   border-bottom: var(--border);
 }
 
