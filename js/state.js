@@ -3,6 +3,7 @@ const stateContainer = document.querySelector('#state-container');
 const stateMsg = document.querySelector('#state-message'); //form
 const stateTitle = document.querySelector('#state_title');
 const stateInputBtn = document.querySelector('#state-message__input__btn');
+// const stateInputBtn = document.querySelector('#state-message__input__btn');
 const x = document.querySelector('#x');
 let isClick = false; // 버튼 클릭 X가 디폴트 상태
 

@@ -9,7 +9,7 @@
   <body id="friends_screen">
     <div class="status-bar">
       <div class="status-bar__column">
-        <span id="weather">no Service </span>
+        <span id="weather">no Service  </span>
         <i id="icon"></i>
         &nbsp<span id="temp"></span>
         <!-- <i class="fa-solid fa-wifi"></i> -->
@@ -118,17 +118,18 @@
 
     <div class="hidden" id="state-container">
       <form id="state-message">
-        <div class="state-message__title" id="state_title">
+        <div id="state-title">
           상태메세지 올리기
           <i class="fa-solid fa-xmark" id="x"></i>
         </div>
         <input
           type="text"
           placeholder="내용 입력"
-          maxlength="30"
+          maxlength="60"
           id="state-message__input"
         />
-        <button id="state-message__input__btn">확인</button>
+        <span>0/60</span>
+        <button>확인</button>
       </form>
     </div>
 
@@ -138,6 +139,7 @@
     ></script>
     <script src="js/clock.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/state.js"></script>
     <script src="js/state.js"></script>
     <!-- <script src="js/login.js"></script> -->
   </body>
