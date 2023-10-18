@@ -47,9 +47,15 @@
   margin-bottom: 10px;
   transition: all 0.3s ease-in-out;
   border-radius: 5px;
-  background-color: #206c93b4;
+  /* background-color: #206c93b4; */
+  background-color: #A7D397;
   padding: 18px 0px;
   cursor: pointer;
+  transition: background-color 0.3s ease-in;
+}
+
+#login-form input[type='submit']:hover{
+  background-color: #96bc88;
 }
 
 #login-form a {
