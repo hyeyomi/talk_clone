@@ -29,7 +29,8 @@
   align-items: center;
 }
 .status-bar__column:last-child span{
-  margin: 0px 2px;
+  margin-right: 2px;
+  margin-left: 4px;
 }
 .status-bar__column .fa-battery-full {
   margin: 0 3px;

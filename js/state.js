@@ -3,6 +3,7 @@ const stateContainer = document.querySelector('#state-container');
 const stateMsg = document.querySelector('#state-message'); //form
 const stateTitle = document.querySelector('#state_title');
 const stateInputBtn = document.querySelector('#state-message__input__btn');
+const stateMsgLength = document.querySelector('#stateMsg_length');
 // const stateInputBtn = document.querySelector('#state-message__input__btn');
 const x = document.querySelector('#x');
 let isClick = false; // 버튼 클릭 X가 디폴트 상태
@@ -19,9 +20,9 @@ function clickStateBtn() {
     isClick = false;
   }
 }
+const stateInput = document.querySelector('#state-message__input');
 
 function saveState(event) {
-  const stateInput = document.querySelector('#state-message__input');
   event.preventDefault();
   const state = stateInput.value; // 상태메세지
   stateInput.value = ''; //새로고침
@@ -53,6 +54,11 @@ if (savedTxt !== null) {
 stateBtn.addEventListener('click', clickStateBtn);
 x.addEventListener('click', clickStateBtn);
 stateMsg.addEventListener('submit', saveState);
+stateInput.addEventListener('input', changeLength);
+
+function changeLength(){
+  stateMsgLength.innerText = `${stateInput.value.length}/30`;
+}
 
 const profile = document.querySelector('#myProfile');
 

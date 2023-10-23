@@ -16,11 +16,20 @@
   text-align: center;
 }
 
+.find-icons__icon:hover{
+  cursor: pointer;
+}
+
 .find-icons__icon span {
   margin-top: 15px;
   font-size: 15px;
+  opacity: 0.7;
+  transition: all 0.2s ease-in-out;
 }
 
+.find-icons__icon:hover .find-icons__icon_name{
+  opacity: 1;
+}
 
 .recommended-friends {
   padding: 15px 15px;
@@ -51,6 +60,12 @@
 
 .open-chat__header span {
   color: rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+.open-chat__header span:hover{
+  color: black;
+  cursor: pointer;
 }
 
 .open-post {

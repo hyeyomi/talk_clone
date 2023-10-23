@@ -78,6 +78,7 @@ function paintMsg(newMsg) {
   time.innerText = newMsg.id.substr(0, 5);
 
   const button = document.createElement('button');
+  button.id = "trash";
   const i = document.createElement('i');
   i.className = 'fa-regular fa-trash-can';
   // button.innerText = '❌';
@@ -102,9 +103,11 @@ if (savedMsg !== null) {
 //엑스 버튼을 눌렀을때 해당 메세지가 삭제되어야 함
 function deleteMsg(event) {
   const i = event.target.parentElement; //버튼의 부모 div를 삭제해야 하기 때문에
+  console.log(i);
   const div = i.parentElement;
+  console.log(div);
   div.remove(); // 태그 삭제됨
-  console.log(div, messages[0]);
+  // console.log(div, messages[0]);
   //  local에 저장된 메세지 메모리까지 삭제해줘야 함
   messages = messages.filter((item) => item.id !== div.id); // 삭제된 div의 id와 다른 메세지들만 필터링돼서 messages 배열에 다시 저장됨
   //즉, 삭제된 div의 메세지는 messages 배열에서 삭제됨

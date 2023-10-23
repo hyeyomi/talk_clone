@@ -119,7 +119,7 @@
 
 .message__bubble {
   padding: 2px 13px;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 600;
   background-color: white;
   display: flex;
@@ -193,12 +193,16 @@
 }
 
 .reply .reply__column:first-child {
-  width: 10%;
+  width: 30px;
+
 }
 
 .reply .reply__column:last-child {
   position: relative; /*아이콘을 input위로 올리기 위해서*/
-  width: 90%;
+  width: 350px;
+
+  margin-right: 20px;
+
 }
 
 @keyframes fadeOut {
@@ -218,7 +222,7 @@
 
 .reply input {
   height: 30px;
-  width: 100%;
+  width: 350px;
   border: var(--border);
   border-radius: 20px;
   padding: 5px 10px;
@@ -235,10 +239,10 @@
   background-color: yellow;
   border: none;
   width: 38px;
-  height: 38px;
+  height: 36px;
   border-radius: 50%;
-  top: 1px;
-  right: -9px;
+  top: 3px;
+  right: -5px;
 }
 .reply__column button i {
   opacity: 1;
@@ -256,9 +260,7 @@
 
 /*reply안의 어떤 element가 focus된 경우*/
 .reply:focus-within input {
-
-  transform: translateX(-25px) translateY(-80px) scaleX(1.1);
-  height: 5vh;
+  transform: translateX(-25px) translateY(-90px);
 }
 
 .reply__column button {
@@ -266,9 +268,8 @@
 }
 
 .reply:focus-within .reply__column button {
-  transform: translateY(-80px);
-  height: 6vh;
-  width: 7vw;
+  transform: translateY(-90px) translateX(-20px);
+
 }
 
 .reply:focus-within {
@@ -282,3 +283,11 @@
   }
 }
 
+#trash{
+  transition: all 0.2s linear;
+}
+
+#trash:hover{
+  cursor: pointer;
+  opacity: 1;
+}

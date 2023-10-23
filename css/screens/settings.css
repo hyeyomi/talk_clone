@@ -1,5 +1,5 @@
 .setting-screen{
-    padding: 20px;
+    padding: 15px 0px;
     margin-top: -15px;
 }
 
@@ -14,7 +14,7 @@
 
 .settings__setting{
     border-bottom: 1px rgba(0, 0, 0, 0.05) solid;
-    padding : 20px 0px;
+    padding : 20px 20px;
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -35,6 +35,11 @@
     opacity: 0.8;
 }
 
+.settings__setting:hover{
+    cursor: pointer;
+    background-color: #eee;
+}
+
 .settings__notification{
     font-size: 12px;
     font-weight: 600;
@@ -52,3 +57,4 @@
 .settings__setting-column{
     display: flex;
 }
+

@@ -106,9 +106,10 @@
 #state-container {
   margin: 5px;
   padding: 20px 15px;
-  border: 2px solid #a7d397;
+  /* border: 2px solid #a7d397; */
   height: 150px;
   border-radius: 25px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 #state-message {

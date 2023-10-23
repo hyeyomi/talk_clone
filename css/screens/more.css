@@ -12,10 +12,24 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
+    transition: all 0.2s linear;
 }
 
 .more-icons__icon span, .suggestion-icons__icon span{
     margin-top: 15px;
+}
+
+.more-icons__icon_name{
+    transition: all 0.2s ease-in-out;
+    opacity: 0.6;
+}
+
+.more-icons__icon:hover{
+    cursor: pointer;
+}
+
+.more-icons__icon:hover .more-icons__icon_name{
+    opacity: 1;
 }
 
 .suggestion h6{
@@ -35,6 +49,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.suggestion-icons__icon:hover{
+    cursor: pointer;
+}
+
+.suggestion-icons__name{
+    opacity: 0.6;
+    transition: all 0.2s ease-in-out;
+}
+
+.suggestion-icons__icon:hover .suggestion-icons__name{
+    opacity: 1;
 }
 
 .suggestion-icons__image{
