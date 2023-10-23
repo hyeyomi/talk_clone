@@ -196,10 +196,6 @@
   width: 30px;
 }
 
-.reply .reply__column:first-child i{
-  margin-left: 10px;
-
-}
 
 .reply .reply__column:last-child {
   position: relative; /*아이콘을 input위로 올리기 위해서*/
