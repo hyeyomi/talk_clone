@@ -19,6 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: all 0.2s ease-in-out;
 }
 
 .settings__setting:last-child{

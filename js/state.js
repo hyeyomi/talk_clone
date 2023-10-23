@@ -55,9 +55,14 @@ stateBtn.addEventListener('click', clickStateBtn);
 x.addEventListener('click', clickStateBtn);
 stateMsg.addEventListener('submit', saveState);
 stateInput.addEventListener('input', changeLength);
+stateInput.addEventListener('keyUp',deleteContainer);
 
 function changeLength(){
   stateMsgLength.innerText = `${stateInput.value.length}/30`;
+}
+
+function deleteContainer(){
+  console.log("hi");
 }
 
 const profile = document.querySelector('#myProfile');

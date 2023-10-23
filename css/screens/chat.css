@@ -194,6 +194,10 @@
 
 .reply .reply__column:first-child {
   width: 30px;
+}
+
+.reply .reply__column:first-child i{
+  margin-left: 10px;
 
 }
 
@@ -222,11 +226,11 @@
 
 .reply input {
   height: 30px;
-  width: 350px;
+  width: 330px;
   border: var(--border);
   border-radius: 20px;
   padding: 5px 10px;
-  margin-left: -10px;
+  margin-left:10px;
   transition: all 0.5s ease-in-out;
 }
 
