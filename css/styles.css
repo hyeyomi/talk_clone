@@ -13,6 +13,7 @@
 @import 'screens/more.css';
 @import 'screens/settings.css';
 @import 'screens/chat.css';
+@import 'screens/profile.css';
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,

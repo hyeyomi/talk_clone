@@ -53,3 +53,11 @@ if (savedTxt !== null) {
 stateBtn.addEventListener('click', clickStateBtn);
 x.addEventListener('click', clickStateBtn);
 stateMsg.addEventListener('submit', saveState);
+
+const profile = document.querySelector('#myProfile');
+
+function goProfile() {
+  location.href = 'profile.html';
+}
+
+profile.addEventListener('click', goProfile);

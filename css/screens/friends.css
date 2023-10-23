@@ -100,6 +100,7 @@
   background-color: rgba(0, 0, 0, 0.2);
   color: white;
   border: none;
+  cursor: pointer;
 }
 
 #state-container {
@@ -156,6 +157,7 @@
 #state-message button:hover {
   background-color: #a7d39774;
   color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
 }
 
 #x {
@@ -165,3 +167,5 @@
   padding-right: 15px;
   font-size: large;
 }
+
+#x:hover{  cursor: pointer; }

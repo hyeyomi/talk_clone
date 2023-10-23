@@ -21,6 +21,23 @@
    position: relative;
 }
 
+@keyframes scaleIcon{
+  0%{
+    transform: none;
+  }
+  50%{
+    transform:scale(1.2);
+  }
+  100%{
+    transform: none;
+}
+}
+
+.screen-header__icons>span>i:hover{
+  animation: scaleIcon 1s ease-in-out infinite;
+  cursor: pointer;
+}
+
 @keyframes rotateGear {
   from{
     transform: none;
