@@ -1,2 +1,2 @@
 # KoKoa Clone
-Html, Css (+ javascript
+Studying for Html, Css 
